@@ -1,24 +1,31 @@
 {
-  "name": "semantic-proper-modals",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "name": "ember-semantic-proper-modals",
+  "version": "0.1.0",
+  "description": "Ember mixin for proper semantic-ui modals.",
   "keywords": [
-    "ember-addon"
+    "ember",
+    "ember-addon",
+    "semantic-ui",
+    "modals"
   ],
   "license": "MIT",
-  "author": "",
+  "author": "crushedpixel",
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CrushedPixel/ember-semantic-proper-modals"
+  },
   "scripts": {
     "build": "ember build",
     "start": "ember server",
     "test": "ember try:each"
   },
   "dependencies": {
-    "ember-cli-babel": "^6.3.0"
+    "ember-cli-babel": "^6.3.0",
+    "semantic-ui-ember": "^2.0.1"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
