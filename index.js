@@ -2,5 +2,5 @@
 'use strict';
 
 module.exports = {
-  name: 'semantic-proper-modals'
+  name: 'ember-semantic-proper-modals'
 };

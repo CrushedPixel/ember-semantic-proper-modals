@@ -34,7 +34,7 @@ export default Ember.Mixin.create({
 
   actions: {
     showModal() {
-      this.showModal();
+      this.get('showModal')();
     }
   }
 
