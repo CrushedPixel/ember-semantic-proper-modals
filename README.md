@@ -13,7 +13,7 @@ This can be worked around by dynamically setting the modal's contents as you req
 ## Installation
 
 ```
-ember instal ember-semantic-proper-modals
+ember install ember-semantic-proper-modals
 ```
 
 ## Usage
@@ -68,3 +68,5 @@ export default Ember.Component.extend(SemanticModalMixin, {
 ## Notes
 You can access the jQuery DOM element for the modal using 
 `this.get('modal')` and invoke semantic ui behaviours etc. on it.
+
+You can also programatically show the modal by calling `this.showModal()`.

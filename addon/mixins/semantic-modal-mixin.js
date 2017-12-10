@@ -28,9 +28,13 @@ export default Ember.Mixin.create({
     });
   },
 
+  showModal() {
+    this.get('modal').modal('show');
+  },
+
   actions: {
     showModal() {
-      this.get('modal').modal('show');
+      this.showModal();
     }
   }
 
