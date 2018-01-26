@@ -1,6 +1,6 @@
 {
   "name": "ember-semantic-proper-modals",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Ember mixin for proper semantic-ui modals.",
   "keywords": [
     "ember",
